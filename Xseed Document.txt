@@ -1,0 +1,38 @@
+1.Why I have used React for this ?
+
+Ans ->
+
+There are several reasons why I have used React. React is commonly used for building web applications like the one I have implemented. Here are some of the key advantages of using React:
+
+a) Component-Based Architecture: React allows you to build your application using reusable components. Each component encapsulates its own
+logic, state, and UI, making it easier to develop and maintain complex user interfaces.
+
+b)Virtual DOM: React uses a virtual DOM (Document Object Model) to efficiently update and render UI components. The virtual DOM is a
+lightweight representation of the actual DOM, and React uses it to perform efficient diffing and minimize the number of real DOM updates,
+resulting in improved performance.
+
+c) Declarative Syntax: React uses a declarative syntax, which means you describe how your UI should look based on its current state, and
+React takes care of updating the UI to match that state. This approach simplifies UI development and makes it easier to reason about the
+application's behavior.
+
+d) Efficient Updates: React's diffing algorithm allows for efficient updates to the UI. Instead of re-rendering the entire UI, React only
+updates the parts that have changed, resulting in faster rendering and improved performance.
+
+e) React Hooks: With the introduction of React Hooks, you can easily manage state and side effects in functional components. Hooks provide a
+simpler way to handle stateful logic and allow you to reuse code across different components.
+
+2. Why firebase database is used?
+Ans ->
+
+Cloud Firestore, a part of the Firebase suite, is a NoSQL document database that is used in your code. Here are some reasons why Cloud Firestore is
+a suitable choice:
+
+Scalability: Cloud Firestore is designed to scale horizontally, automatically handling large amounts of data and high traffic loads. It can
+seamlessly accommodate growing user bases and increasing data volumes without compromising performance.
+
+Real-time Updates: Similar to the Firebase Realtime Database, Cloud Firestore provides real-time updates. It uses a powerful feature called
+Firestore Sync, which enables automatic synchronization of data changes between the client and server in real-time. This allows for real-time
+collaboration, instant updates, and live data streaming in your application.
+
+Flexible Data Model: Cloud Firestore offers a flexible and scalable data model based on documents and collections. You can organize your data
+into collections, which contain individual documents.
